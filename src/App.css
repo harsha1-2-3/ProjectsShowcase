@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  font-family: Roboto;
+}
+
+body {
+  margin: 0px;
+}
+
+.Bg {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.BgNavbar {
+  background-color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 10vh;
+  padding: 10px;
+}
+
+.LogoImg {
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+}
+
+.BgHome {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  padding: 20px;
+}
+
+.InputBox {
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  background-color: transparent;
+}
+
+.ProjectsUl {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.ProjectLi {
+  height: 220px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 5px 7px #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.ProjectImg {
+  height: 170px;
+  width: 250px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin: 0px;
+}
+
+.ProjectName {
+  color: #475569;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0px;
+}
+
+.BgFail {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.FailImg {
+  height: 150px;
+  width: 250px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.FailHead {
+  color: #475569;
+  font-size: 25px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.FailPara {
+  color: #475569;
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.RetryBtn {
+  font-size: 15px;
+  color: white;
+  background-color: #328af2;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 3px;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .FailImg {
+    height: 350px;
+    width: 600px;
+  }
+
+  .FailHead {
+    font-size: 30px;
+  }
+
+  .RetryBtn {
+    font-size: 18px;
+  }
+
+  .LogoImg {
+    height: 65px;
+    width: 180px;
+  }
+
+  .ProjectsUl {
+    flex-direction: row;
+  }
+
+  .InputBox {
+    width: 300px;
+    margin-right: 10px;
+  }
+
+  .ProjectLi {
+    margin: 15px;
+  }
+}
